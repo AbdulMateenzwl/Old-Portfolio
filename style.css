@@ -90,13 +90,15 @@ body{
     font-size: 35px;
 }
 
-.social-media{
+#social-media{
     margin-top: 20px;
     display: flex;
-    
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
 }
 
-.social-media a{
+#social-media a{
     margin-right: 20px;
     color: white;
 }
@@ -130,43 +132,14 @@ body{
     #bars{
         display: block;
         margin: 5px;
-        font-size: 30px;
+        font-size: 25px;
         color: white;
     }
+
     #details-info{
-        height: 50px;
-        overflow-x: scroll;
-        scroll-behavior: smooth;
-        font-size: small;
-        border: .3px solid black;
-        padding: 2px 4px;
-        border-radius: 5px;
-    }
-    #my-name{
-        font-size: 40px;
-    }
-    #work{
-        font-size: 25px;
+        height: 30px;
     }
     
-    #details-info::-webkit-scrollbar {
-        -webkit-appearance: none;
-    }
-    
-    
-    #details-info::-webkit-scrollbar:horizontal {
-        /* height: 11px; */
-        display: none;
-    }
-    
-    #details-info::-webkit-scrollbar-thumb {
-        border-radius: 8px;
-        border: 2px solid black; 
-        background-color: rgba(0, 0, 0, .5);
-    }
-    .social-media{
-        margin-top: 5px;
-    }
 }
 
 @media only screen and (max-width:800px){
@@ -205,5 +178,39 @@ body{
         padding: 15px;
         padding-top: 22px;
     }
+    #my-name{
+        font-size: 40px;
+    }
+
+    #work{
+        font-size: 25px;
+    }
     
+    #details-info{
+        height: 80px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        font-size: small;
+        border: .3px solid black;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+
+    #details-info::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    #details-info::-webkit-scrollbar:horizontal {
+        /* height: 11px; */
+        display: none;
+    }
+    
+    #details-info::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid black; 
+        background-color: rgba(0, 0, 0, .5);
+    }
+    #social-media{
+        margin-top: 5px;
+    }
 }
