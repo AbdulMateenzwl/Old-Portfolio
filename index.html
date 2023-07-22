@@ -8,204 +8,219 @@
     </head>
 
     <body>
-        <nav id="nav-bar">
-            <div id="bars">
-                <i
-                    class="fa-solid fa-bars white-color hamburger-menu fa-5x"
-                    id="bars"
-                    onclick="toggleSideBar()"
-                ></i>
+        <section>
+            <nav id="nav-bar">
+                <div id="bars">
+                    <i
+                        class="fa-solid fa-bars white-color hamburger-menu fa-5x"
+                        id="bars"
+                        onclick="toggleSideBar()"
+                    ></i>
+                </div>
+                <div class="menu">
+                    <ul id="test11">
+                        <li><a href="https://AbdulMateenzwl.com">Home</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="Projects">Projects</a></li>
+                        <li>
+                            <a href="https://connect.AbdulMateenzwl.com"
+                                >Contact Me</a
+                            >
+                        </li>
+                        <li onclick="toggleSideBar()" id="close-btn">
+                            <a href="#">Close</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-menu">
+                <div class="info">
+                    <div id="info-data">
+                        <label>Hello I'm</label>
+                        <h1 id="my-name">Abdul Mateen</h1>
+                        <p id="work">Web Developer</p>
+                        <p id="details-info">
+                            As Creative, Passionate and Consistent Student I am
+                            pursuing my Bachelor's degree in Computer Science. I
+                            have been part of multiple Societies, Communities and
+                            been a starting member of UET Tech Community. I always
+                            try to find and learn from new opportunities. My goal is
+                            to work as a software developer and contribute to
+                            innovative technology solutions. Being Creative I have
+                            multiple outstanding projects solo and in groups.
+                        </p>
+                        <div id="social-media">
+                            <a href="https://facebook.com/AbdulMateenzwl"
+                                ><i class="fab fa-facebook white-color fa-2x"></i
+                            ></a>
+                            <a href="https://instagram.com/AbdulMateenzwl"
+                                ><i class="fab fa-instagram white-color fa-2x"></i
+                            ></a>
+                            <a href="https://linkedin.com/in/AbdulMateenzwl"
+                                ><i class="fab fa-linkedin white-color fa-2x"></i
+                            ></a>
+                            <a href="https://github.com/AbdulMateenzwl"
+                                ><i class="fab fa-github white-color fa-2x"></i
+                            ></a>
+                            <a href="https://AbdulMateenzwl.com"
+                                ><i class="fa-solid fa-globe white-color fa-2x"></i
+                            ></a>
+                            <a href="https://connect.AbdulMateenzwl.com"
+                                ><i
+                                    class="fa-solid fa-ellipsis-vertical white-color fa-2x"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-img-div">
+                    <img id="first-img" src="./images/dp.jpg" alt="" />
+                </div>
             </div>
-            <div class="menu">
-                <ul id="test11">
-                    <li><a href="https://AbdulMateenzwl.com">Home</a></li>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="Projects">Projects</a></li>
-                    <li>
-                        <a href="https://connect.AbdulMateenzwl.com"
-                            >Contact Me</a
-                        >
-                    </li>
-                    <li onclick="toggleSideBar()" id="close-btn">
-                        <a href="#">Close</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="main-menu">
-            <div class="info">
-                <div id="info-data">
-                    <label>Hello I'm</label>
-                    <h1 id="my-name">Abdul Mateen</h1>
-                    <p id="work">Web Developer</p>
-                    <p id="details-info">
-                        As Creative, Passionate and Consistent Student I am
-                        pursuing my Bachelor's degree in Computer Science. I
-                        have been part of multiple Societies, Communities and
-                        been a starting member of UET Tech Community. I always
-                        try to find and learn from new opportunities. My goal is
-                        to work as a software developer and contribute to
-                        innovative technology solutions. Being Creative I have
-                        multiple outstanding projects solo and in groups.
+            <section id="about-me">
+                <div class="img">
+                    <img src="./images/about-img.png" alt="" />
+                </div>
+                <div id="about-text">
+                    <p class="heading">About Me</p>
+                    <p>
+                        As Creative, Passionate and Consistent Student I am pursuing
+                        my Bachelor's degree in Computer Science. I have been part
+                        of multiple Societies, Communities and been a starting
+                        member of UET Tech Community. I always try to find and learn
+                        from new opportunities. My goal is to work as a software
+                        developer and contribute to innovative technology solutions.
+                        Being Creative I have multiple outstanding projects solo and
+                        in groups.
                     </p>
-                    <div id="social-media">
-                        <a href="https://facebook.com/AbdulMateenzwl"
-                            ><i class="fab fa-facebook white-color fa-2x"></i
-                        ></a>
-                        <a href="https://instagram.com/AbdulMateenzwl"
-                            ><i class="fab fa-instagram white-color fa-2x"></i
-                        ></a>
-                        <a href="https://linkedin.com/in/AbdulMateenzwl"
-                            ><i class="fab fa-linkedin white-color fa-2x"></i
-                        ></a>
-                        <a href="https://github.com/AbdulMateenzwl"
-                            ><i class="fab fa-github white-color fa-2x"></i
-                        ></a>
-                        <a href="https://AbdulMateenzwl.com"
-                            ><i class="fa-solid fa-globe white-color fa-2x"></i
-                        ></a>
-                        <a href="https://connect.AbdulMateenzwl.com"
-                            ><i
-                                class="fa-solid fa-ellipsis-vertical white-color fa-2x"
-                            ></i
-                        ></a>
+                    <button class="btn-primary">Download CV</button>
+                </div>
+            </section>
+            <section id="work-section">
+                <p class="heading">What I do</p>
+                <div id="skill-blocks">
+                    <div class="card">
+                        <p>Web Development</p>
+                        <i class="fa-solid fa-code fa-5x"></i>
+                    </div>
+                    <div class="card">
+                        <p>Web Designing</p>
+                        <i class="fa-solid fa-code fa-5x"></i>
+                    </div>
+                    <div class="card">
+                        <p>Graphic Designing</p>
+                        <i class="fa-solid fa-paintbrush fa-5x"></i>
+                    </div>
+                    <div class="card">
+                        <p>Problem Solving</p>
+                        <i class="fa-solid fa-gears fa-5x"></i>
+                    </div>
+                    <div class="card">
+                        <p>Desktop Development</p>
+                        <i class="fa-solid fa-display fa-5x"></i>
                     </div>
                 </div>
-            </div>
-
-            <div class="my-img-div">
-                <img id="first-img" src="./images/dp.jpg" alt="" />
-            </div>
-        </div>
-
-        <section id="about-me">
-            <div class="img">
-                <img src="./images/about-img.png" alt="" />
-            </div>
-            <div id="about-text">
-                <p class="heading">About Me</p>
-                <p>
-                    As Creative, Passionate and Consistent Student I am pursuing
-                    my Bachelor's degree in Computer Science. I have been part
-                    of multiple Societies, Communities and been a starting
-                    member of UET Tech Community. I always try to find and learn
-                    from new opportunities. My goal is to work as a software
-                    developer and contribute to innovative technology solutions.
-                    Being Creative I have multiple outstanding projects solo and
-                    in groups.
-                </p>
-                <button class="btn-primary">Download CV</button>
-            </div>
+            </section>
+            <section id="tech-skills">
+                <p class="heading">Technical Skills</p>
+                <div id="skill-bars">
+                    <div class="growth-card">
+                        <p class="skill-heading">Frontend Develoment</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;""></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">Data Structure & Algorithm</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;""></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">C#</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;""></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">C / C++</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 89%;"></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87%;"></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">Winform / WPF</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">React</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 83%;"></div>
+                        </div>
+                    </div>
+                    <div class="growth-card">
+                        <p class="skill-heading">Python</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education-experience">
+                <div id="education">
+                    <p class="heading">Education</p>
+                    <div class="cards">
+                        <div class="edu-card">
+                            <p class="card-heading">Bachelors in Computer Science</p>
+                            <p class="card-sub-heading">University of Engineering & Technology, Lahore</p>
+                            <p class="card-sub-heading">2021 - 2025</p>
+                        </div>
+                        <div class="edu-card">
+                            <p class="card-heading">FSc. Pre Engineering</p>
+                            <p class="card-sub-heading">Punjab Group of Colleges, Zafarwal</p>
+                            <p class="card-sub-heading">2019 - 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="experience">
+                    <p class="heading">Experience</p>
+                    <div class="cards">
+                        <div class="edu-card">
+                            <p class="card-heading">MERN Stack Intern</p>
+                            <p class="card-sub-heading">Tiers Limited</p>
+                            <p class="card-sub-heading">June '23 - August '23</p>
+                        </div>
+                        <div class="edu-card">
+                            <p class="card-heading">Teaching Assistant</p>
+                            <p class="card-sub-heading">UET Lahore</p>
+                            <p class="card-sub-heading">Nov '22 - August '23</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <script src="./Script/index.js"></script> -->
+            <script>
+                function toggleSideBar() {
+                    let obj = document.getElementById("test11");
+                    if (obj.classList.contains("active")) {
+                        obj.classList.remove("active");
+                        obj.classList.add("hide");
+                    } else obj.classList.add("active");
+                    console.log(obj);
+                }
+            </script>
+            <script
+                src="https://kit.fontawesome.com/bc80f90ff7.js"
+                crossorigin="anonymous"
+            ></script>
         </section>
-
-        <section id="work-section">
-            <p class="heading">What I do</p>
-            <div id="skill-blocks">
-                <div class="card">
-                    <p>Web Development</p>
-                    <i class="fa-solid fa-code fa-5x"></i>
-                </div>
-
-                <div class="card">
-                    <p>Web Designing</p>
-                    <i class="fa-solid fa-code fa-5x"></i>
-                </div>
-                <div class="card">
-                    <p>Graphic Designing</p>
-                    <i class="fa-solid fa-paintbrush fa-5x"></i>
-                </div>
-                <div class="card">
-                    <p>Problem Solving</p>
-                    <i class="fa-solid fa-gears fa-5x"></i>
-                </div>
-                <div class="card">
-                    <p>Desktop Development</p>
-                    <i class="fa-solid fa-display fa-5x"></i>
-                </div>
-            </div>
-        </section>
-
-        <section id="tech-skills">
-            <p class="heading">Technical Skills</p>
-            <div id="skill-bars">
-                <div class="growth-card">
-                    <p class="skill-heading">Frontend Develoment</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 95%;""></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">Data Structure & Algorithm</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 95%;""></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">C#</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%;""></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">C / C++</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 89%;"></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">JavaScript</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 87%;"></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">Winform / WPF</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%;"></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">React</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 83%;"></div>
-                    </div>
-                </div>
-                <div class="growth-card">
-                    <p class="skill-heading">Python</p>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section id="education-experience">
-            <div id="education">
-                <p class="heading">Education</p>
-            </div>
-            <div id="experience">
-                <p class="heading">Experience</p>
-                
-            </div>
-        </section> -->
-
-
-        <!-- <script src="./Script/index.js"></script> -->
-        <script>
-            function toggleSideBar() {
-                let obj = document.getElementById("test11");
-                if (obj.classList.contains("active")) {
-                    obj.classList.remove("active");
-                    obj.classList.add("hide");
-                } else obj.classList.add("active");
-                console.log(obj);
-            }
-        </script>
-
-        <script
-            src="https://kit.fontawesome.com/bc80f90ff7.js"
-            crossorigin="anonymous"
-        ></script>
     </body>
 </html>
