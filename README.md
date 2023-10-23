@@ -7,9 +7,9 @@ Welcome to my portfolio website! I'm Abdul Mateen, a passionate web developer wi
 ## Skills
 
 - Front-end Development: HTML, CSS, JavaScript, React , Next
-- Back-end Development: Node.js, Express
-- Database: MongoDB, MySQL
-- Version Control: Git
+- Back-end Development: Node.js, ExpressJS
+- Database: MongoDB, MySQL, MSSQL
+- Version Control: Git, GitLab, GitHub
 - UI/UX Design
 - Problem Solving
 
@@ -18,7 +18,6 @@ Welcome to my portfolio website! I'm Abdul Mateen, a passionate web developer wi
 [Porfolio Link](https://old-portfolio.abdulmateenzwl.com)
 
 [New Porfolio Link](https://portfolio.abdulmateenzwl.com)
-
 
 ## Contact
 
